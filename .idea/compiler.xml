@@ -9,5 +9,6 @@
         <module name="CGB2102_JAVASE" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
