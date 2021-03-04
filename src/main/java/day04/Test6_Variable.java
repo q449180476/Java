@@ -21,5 +21,24 @@ public class Test6_Variable {
         int sum=100;//定义在方法中的局部变量sum
         System.out.println(sum);
         System.out.println(count);
+        for(int i=1;i<5;i++){
+            for (int x=4;x>i;x--){
+                System.out.print(" ");
+            }
+            for (int j=0;j<i*2-1;j++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+
+        for(int i=4;i>0;i--){
+            for (int x=4;x>i;x--){
+                System.out.print(" ");
+            }
+            for (int j=0;j<i*2-1;j++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
     }
 }
