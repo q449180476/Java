@@ -6,7 +6,6 @@ public class Test6_ArraySort {
     public static void main(String[] args) {
         m();//本方法用来测试sort（）与toString
         m2();//本方法用来测试copyof()
-
     }
 
     private static void m2() {
